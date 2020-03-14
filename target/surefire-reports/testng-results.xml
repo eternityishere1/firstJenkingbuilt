@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-07T22:22:54 EST" name="Command line suite" finished-at="2020-03-07T22:23:00 EST" duration-ms="5609">
+  <suite started-at="2020-03-14T10:10:06 EDT" name="Command line suite" finished-at="2020-03-14T10:10:12 EDT" duration-ms="5517">
     <groups>
     </groups>
-    <test started-at="2020-03-07T22:22:54 EST" name="Command line test" finished-at="2020-03-07T22:23:00 EST" duration-ms="5609">
+    <test started-at="2020-03-14T10:10:06 EDT" name="Command line test" finished-at="2020-03-14T10:10:12 EDT" duration-ms="5517">
       <class name="com.testcases.TestCase1">
-        <test-method signature="testone()[pri:0, instance:com.testcases.TestCase1@23fe1d71]" started-at="2020-03-07T22:22:54 EST" name="testone" finished-at="2020-03-07T22:22:54 EST" duration-ms="3" status="PASS">
+        <test-method signature="testone()[pri:0, instance:com.testcases.TestCase1@23fe1d71]" started-at="2020-03-14T10:10:06 EDT" name="testone" finished-at="2020-03-14T10:10:06 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testone -->
       </class> <!-- com.testcases.TestCase1 -->
       <class name="com.testcases.TestCase3">
-        <test-method signature="testcasethree()[pri:0, instance:com.testcases.TestCase3@32eebfca]" started-at="2020-03-07T22:22:54 EST" name="testcasethree" finished-at="2020-03-07T22:22:54 EST" duration-ms="0" status="PASS">
+        <test-method signature="testcasethree()[pri:0, instance:com.testcases.TestCase3@32eebfca]" started-at="2020-03-14T10:10:06 EDT" name="testcasethree" finished-at="2020-03-14T10:10:06 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcasethree -->
       </class> <!-- com.testcases.TestCase3 -->
       <class name="com.testcases.TestCase2">
-        <test-method signature="testcasetwo()[pri:0, instance:com.testcases.TestCase2@28ac3dc3]" started-at="2020-03-07T22:22:54 EST" name="testcasetwo" finished-at="2020-03-07T22:22:54 EST" duration-ms="2" status="PASS">
+        <test-method signature="testcasetwo()[pri:0, instance:com.testcases.TestCase2@28ac3dc3]" started-at="2020-03-14T10:10:06 EDT" name="testcasetwo" finished-at="2020-03-14T10:10:06 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcasetwo -->
       </class> <!-- com.testcases.TestCase2 -->
       <class name="com.testcases.TestCase4">
-        <test-method signature="navigatetoGoogle()[pri:0, instance:com.testcases.TestCase4@4e718207]" started-at="2020-03-07T22:22:54 EST" name="navigatetoGoogle" finished-at="2020-03-07T22:23:00 EST" duration-ms="5579" status="FAIL">
+        <test-method signature="navigatetoGoogle()[pri:0, instance:com.testcases.TestCase4@4e718207]" started-at="2020-03-14T10:10:06 EDT" name="navigatetoGoogle" finished-at="2020-03-14T10:10:12 EDT" duration-ms="5486" status="FAIL">
           <exception class="java.lang.IllegalMonitorStateException">
             <full-stacktrace>
               <![CDATA[java.lang.IllegalMonitorStateException
 at java.base/java.lang.Object.wait(Native Method)
-at com.testcases.TestCase4.navigatetoGoogle(TestCase4.java:26)
+at com.testcases.TestCase4.navigatetoGoogle(TestCase4.java:35)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
