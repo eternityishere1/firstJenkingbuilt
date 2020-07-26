@@ -24,14 +24,16 @@ public class TestCase4 {
 	@Test
 	public void navigatetoGoogle() throws InterruptedException {
 	WebDriver driver = null;
-	System.setProperty("webdriver.edge.driver", "C:\\Users\\dhire\\Desktop\\New folder (3)\\edgedriver_win64\\msedgedriver.exe");
+//	System.setProperty("webdriver.edge.driver", "C:\\Users\\dhire\\Desktop\\Dhiren_Data\\New folder (3)\\edgedriver_win64\\msedgedriver.exe");
 	/*
 	ChromeOptions chromeOptions = new ChromeOptions();
 	chromeOptions.addArguments("--whitelist-ip *");
 	chromeOptions.addArguments("--proxy-server='direct://'");
 	chromeOptions.addArguments("--proxy-bypass-list=*");*/
-	driver = new EdgeDriver();
+	//driver = new EdgeDriver();
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\dhire\\Desktop\\Dhiren_Data\\New folder (3)\\chromedriver_win32\\chromedriver.exe");
 	
+	driver = new ChromeDriver();
 //	driver.wait(5000);
 	driver.get("https://www.google.com/");
 	WebElement searchbox = driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"));
